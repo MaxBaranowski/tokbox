@@ -38,7 +38,8 @@ function initializeSession() {
       var publisher = OT.initPublisher('publisher', {
         insertMode: 'append',
         width: '100%',
-        height: '100%'
+        height: '100%',
+        publishVideo(false)
       });
 
       session.publish(publisher);
